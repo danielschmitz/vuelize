@@ -8,9 +8,10 @@ const index = app => {
   })
 
   //
-  // rotas
+  // Rotas
   //
-  router.use('/user', require('./user'))
+  router.use('/', require('./base'))
+  router.use('/', require('./user'))
 
   //
   // Todas as rotas possuem o prefixo api.
