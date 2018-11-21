@@ -7,7 +7,7 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "postinstall": "npm run build",
-    "prestart": "node_modules/.bin/sequelize db:migrate -c config/config.js",
+    "prestart": "node_modules/.bin/sequelize db:migrate -c config/config.json",
     "start": "node server.js",
     "dev": "concurrently --kill-others \"npm run serve\" \"nodemon server.js\""
   },
