@@ -9,8 +9,8 @@ module.exports = {
           firstName: 'Daniel',
           lastName: 'Schmitz',
           email: 'danieljfa@gmail.com',
-          createdAt: Date.now(),
-          updatedAt: Date.now()
+          createdAt: new Date(),
+          updatedAt: new Date()
         }
       ],
       {}
